@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-app.get("/hour", (req, res) => {
+app.get("/", (req, res) => {
   const now = new Date();
 
   res.json({
